@@ -1,8 +1,0 @@
-{
-    "IsEncrypted": false,
-    "Values": {
-        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-        "Connection":"DefaultEndpointsProtocol=https;AccountName=gentwosystem;AccountKey=Rgn2LScPWTbwPLraKQ7XJO3BfdlzgxkT2ZXZ/R3whVDM58YdAYSwZC3usIF4p+hyM2UR4VtXriy9+ASt8pLfSg==;EndpointSuffix=core.windows.net"
-    }
-}
