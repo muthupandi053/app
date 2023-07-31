@@ -9,7 +9,7 @@ namespace checkingRepositary
     public class Function1
     {
         [FunctionName("Function1")]
-        public void Run([BlobTrigger("test/testloadmakeup/{name}", Connection = "Connection")]Stream myBlob, string name, ILogger log)
+        public void Run([BlobTrigger("test/testloadmakeup/{name}", Connection = "connectionString")]Stream myBlob, string name, ILogger log)
         {
             log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
         }
